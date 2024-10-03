@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad632b476cb243eab59839344a55f633, type: 3}
+  m_Name: TowerDataSo
+  m_EditorClassIdentifier: 
+  <TowerDataInfos>k__BackingField:
+  - towerName: Tower 1
+    towerIcon: {fileID: -685206521, guid: 8291022d144a4df4386a79f4474b3362, type: 3}
+    projectileType: 0
+    cost: 75
+    damage: 25
+    range: 4
+    radiusExplosion: 0
+    fireRate: 1
+    buildDelay: 1
+    tower: {fileID: 3644981154566299758, guid: be14f510f78d812488f7f58ffedccdef, type: 3}
+  - towerName: Rocket Tower
+    towerIcon: {fileID: 1931585343, guid: 8291022d144a4df4386a79f4474b3362, type: 3}
+    projectileType: 1
+    cost: 125
+    damage: 40
+    range: 5
+    radiusExplosion: 2
+    fireRate: 1.25
+    buildDelay: 1
+    tower: {fileID: 4489632802581127021, guid: 58fc862bbdb2d4649bc928412794c852, type: 3}
+  - towerName: Tower 2
+    towerIcon: {fileID: 1590998826, guid: 8291022d144a4df4386a79f4474b3362, type: 3}
+    projectileType: 0
+    cost: 150
+    damage: 40
+    range: 7
+    radiusExplosion: 0
+    fireRate: 0.5
+    buildDelay: 1
+    tower: {fileID: 5754791314825629640, guid: f7db004e6e3017a47ac055f20d6db428, type: 3}

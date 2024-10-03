@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 367364beefb28a140bf5fe773274feb0, type: 3}
+  m_Name: PopupData
+  m_EditorClassIdentifier: 
+  popupInfos:
+  - namePopup: PauseGamePopup
+    priority: 10
+    popupPrefab: {fileID: 1004985378268986953, guid: 51e3c214c1675cf4890df4003536a555, type: 3}

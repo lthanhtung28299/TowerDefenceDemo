@@ -1,0 +1,336 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdbceb6f94a149ca8c74ad054935408c, type: 3}
+  m_Name: GameLevelDataSo
+  m_EditorClassIdentifier: 
+  LevelInfos:
+  - levelId: Level 1
+    levelMapId: Map_1
+    backGround: {fileID: 1678842504347877152, guid: 4a70c2d5387068a41926448ff084b338, type: 3}
+    startGold: 300
+    life: 20
+    waves:
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 10
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 5
+        startDelayTime: 5
+      pathIndexSpawnAvailable: 2
+      waveDuration: 30
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 15
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 8
+        startDelayTime: 5
+      pathIndexSpawnAvailable: 2
+      waveDuration: 30
+    isClear: 0
+  - levelId: Level 2
+    levelMapId: Map_2
+    backGround: {fileID: 3082380626667897933, guid: 686c5a43678014e44ad3319f476184a6, type: 3}
+    startGold: 500
+    life: 20
+    waves:
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 10
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 5
+        startDelayTime: 5
+      pathIndexSpawnAvailable: 2
+      waveDuration: 30
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 15
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 8
+        startDelayTime: 5
+      pathIndexSpawnAvailable: 2
+      waveDuration: 30
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 15
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 10
+        startDelayTime: 5
+      pathIndexSpawnAvailable: 4
+      waveDuration: 35
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 20
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 15
+        startDelayTime: 5
+      pathIndexSpawnAvailable: 4
+      waveDuration: 45
+    isClear: 0
+  - levelId: Level 3
+    levelMapId: Map_3
+    backGround: {fileID: 3082380626667897933, guid: 151a891128cdf8f48aa55f9d9c1c3913, type: 3}
+    startGold: 700
+    life: 20
+    waves:
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 10
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 5
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 5
+        startDelayTime: 8
+      pathIndexSpawnAvailable: 2
+      waveDuration: 30
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 15
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 8
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 8
+        startDelayTime: 8
+      pathIndexSpawnAvailable: 2
+      waveDuration: 30
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 20
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 10
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 10
+        startDelayTime: 8
+      pathIndexSpawnAvailable: 4
+      waveDuration: 35
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 20
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 15
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 15
+        startDelayTime: 8
+      - enemy: {fileID: 4182738465654209701, guid: c6070e0109169e9429cd9e1c7f7feb5f, type: 3}
+        spawnCount: 10
+        startDelayTime: 15
+      pathIndexSpawnAvailable: 4
+      waveDuration: 60
+    isClear: 0
+  - levelId: Level 4
+    levelMapId: Map_1
+    backGround: {fileID: 1678842504347877152, guid: 4a70c2d5387068a41926448ff084b338, type: 3}
+    startGold: 700
+    life: 20
+    waves:
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 10
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 5
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 5
+        startDelayTime: 8
+      pathIndexSpawnAvailable: 2
+      waveDuration: 30
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 15
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 8
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 8
+        startDelayTime: 8
+      pathIndexSpawnAvailable: 2
+      waveDuration: 30
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 20
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 10
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 10
+        startDelayTime: 8
+      pathIndexSpawnAvailable: 4
+      waveDuration: 35
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 20
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 15
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 15
+        startDelayTime: 8
+      - enemy: {fileID: 4182738465654209701, guid: c6070e0109169e9429cd9e1c7f7feb5f, type: 3}
+        spawnCount: 10
+        startDelayTime: 15
+      pathIndexSpawnAvailable: 4
+      waveDuration: 60
+    isClear: 0
+  - levelId: Level 5
+    levelMapId: Map_2
+    backGround: {fileID: 3082380626667897933, guid: 686c5a43678014e44ad3319f476184a6, type: 3}
+    startGold: 500
+    life: 20
+    waves:
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 10
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 5
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 5
+        startDelayTime: 8
+      pathIndexSpawnAvailable: 2
+      waveDuration: 30
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 15
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 8
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 8
+        startDelayTime: 8
+      pathIndexSpawnAvailable: 2
+      waveDuration: 30
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 20
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 10
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 10
+        startDelayTime: 8
+      - enemy: {fileID: 4182738465654209701, guid: c6070e0109169e9429cd9e1c7f7feb5f, type: 3}
+        spawnCount: 5
+        startDelayTime: 15
+      pathIndexSpawnAvailable: 4
+      waveDuration: 50
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 20
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 15
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 15
+        startDelayTime: 8
+      - enemy: {fileID: 4182738465654209701, guid: c6070e0109169e9429cd9e1c7f7feb5f, type: 3}
+        spawnCount: 10
+        startDelayTime: 15
+      pathIndexSpawnAvailable: 4
+      waveDuration: 60
+    isClear: 0
+  - levelId: Level 6
+    levelMapId: Map_3
+    backGround: {fileID: 3082380626667897933, guid: 151a891128cdf8f48aa55f9d9c1c3913, type: 3}
+    startGold: 700
+    life: 20
+    waves:
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 10
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 5
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 5
+        startDelayTime: 8
+      pathIndexSpawnAvailable: 2
+      waveDuration: 30
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 15
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 8
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 8
+        startDelayTime: 8
+      pathIndexSpawnAvailable: 2
+      waveDuration: 30
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 20
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 10
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 10
+        startDelayTime: 8
+      - enemy: {fileID: 4182738465654209701, guid: c6070e0109169e9429cd9e1c7f7feb5f, type: 3}
+        spawnCount: 5
+        startDelayTime: 15
+      pathIndexSpawnAvailable: 4
+      waveDuration: 50
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 20
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 15
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 15
+        startDelayTime: 8
+      - enemy: {fileID: 4182738465654209701, guid: c6070e0109169e9429cd9e1c7f7feb5f, type: 3}
+        spawnCount: 10
+        startDelayTime: 15
+      pathIndexSpawnAvailable: 4
+      waveDuration: 60
+    - enemies:
+      - enemy: {fileID: 9076585899418117680, guid: a37a10145e5ca40489020e5f39c3ee5d, type: 3}
+        spawnCount: 30
+        startDelayTime: 1
+      - enemy: {fileID: 8444217771846538524, guid: e88ed941ee077a344aa8b685655ff1f6, type: 3}
+        spawnCount: 25
+        startDelayTime: 5
+      - enemy: {fileID: 4182738465654209701, guid: 3e4a63d6724d1d14598c4b1dfc0f08d7, type: 3}
+        spawnCount: 20
+        startDelayTime: 8
+      - enemy: {fileID: 4182738465654209701, guid: c6070e0109169e9429cd9e1c7f7feb5f, type: 3}
+        spawnCount: 20
+        startDelayTime: 15
+      pathIndexSpawnAvailable: 4
+      waveDuration: 70
+    isClear: 0
