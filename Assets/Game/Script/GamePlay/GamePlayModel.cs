@@ -51,7 +51,7 @@ public class GamePlayModel : Singleton<GamePlayModel>
 
     public void StartWave()
     {
-        if (CurrentWaveIndex >= TotalWaves) return;
+        if (CurrentWaveIndex > TotalWaves) return;
         GamePlaySignal.ShowButtonStartWave.Dispatch(false);
         CurrentWave = LevelInfo.waves[CurrentWaveIndex];
         _waveDurationTimer?.StopTimer(true);
@@ -80,7 +80,7 @@ public class GamePlayModel : Singleton<GamePlayModel>
         _waveDurationTimer?.StopTimer(true);
         CurrentWaveTimeRemaining = 0;
         CurrentWaveIndex++;
-        if (CurrentWaveIndex <= TotalWaves)
+        if (CurrentWaveIndex < TotalWaves)
         {
             StartWave();
         }
